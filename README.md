@@ -111,20 +111,6 @@ beta = emq(target_proba, source_prior)
 
 See `examples/minimal_api.py` and `examples/custom_tool.py`.
 
-## Reported evidence snapshot
-
-`results/reported/` mirrors the current manuscript's structured headline results, including:
-
-- 1,232-unit controlled endpoint table;
-- split-wise results;
-- A0 → A1 → A2 measurement/stopping isolation;
-- held-out adaptation / quantification / classification / open-world module routing;
-- REALDISP and Gas Sensor Array Drift performance-cost summary;
-- matched open-world directional response;
-- saved fallback / HealthRule / Safe-threshold router artifacts.
-
-These files are **reported-result snapshots**, not a substitute for unavailable raw experimental output. 
-
 ## External datasets
 
 Raw REALDISP and Gas Sensor Array Drift data are not redistributed here. Protocol configs are included:
