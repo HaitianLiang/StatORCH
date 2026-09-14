@@ -123,7 +123,7 @@ See `examples/minimal_api.py` and `examples/custom_tool.py`.
 - matched open-world directional response;
 - saved fallback / HealthRule / Safe-threshold router artifacts.
 
-These files are **reported-result snapshots**, not a substitute for unavailable raw experimental output. See `docs/results_provenance.md`.
+These files are **reported-result snapshots**, not a substitute for unavailable raw experimental output. 
 
 ## External datasets
 
@@ -156,13 +156,5 @@ The dashboard is static HTML/CSS/JS and does not require npm. It exposes:
 5. REALDISP / Gas Drift external boundaries;
 6. an auditable example decision trace;
 7. claim boundaries and reproducibility notes.
-
-## Reproducibility notes
-
-- All demo experiments are seeded.
-- Test truth is kept inside evaluator objects and never passed into the controller.
-- Every reported table in the dashboard comes from structured files under `results/reported/`.
-- The demo and reported-result snapshot are intentionally separated.
-- Optional deep TTA / discovery tools are represented by explicit adapter contracts unless their model dependencies are installed; no unavailable method is silently faked.
 
 
