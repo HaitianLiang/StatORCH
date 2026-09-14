@@ -1,0 +1,44 @@
+[
+  {
+    "split": "Standard",
+    "policy": "A0 fixed",
+    "beta_l1": "0.2314",
+    "macro_f1": "0.7922",
+    "mean_cost": "432.0"
+  },
+  {
+    "split": "Standard",
+    "policy": "A1 + routing",
+    "beta_l1": "0.184",
+    "macro_f1": "0.8286",
+    "mean_cost": "623.5"
+  },
+  {
+    "split": "Standard",
+    "policy": "A2 + stopping",
+    "beta_l1": "0.1843",
+    "macro_f1": "0.828",
+    "mean_cost": "617.9"
+  },
+  {
+    "split": "Shift",
+    "policy": "A0 fixed",
+    "beta_l1": "0.2822",
+    "macro_f1": "0.7644",
+    "mean_cost": "432.0"
+  },
+  {
+    "split": "Shift",
+    "policy": "A1 + routing",
+    "beta_l1": "0.2508",
+    "macro_f1": "0.8064",
+    "mean_cost": "620.3"
+  },
+  {
+    "split": "Shift",
+    "policy": "A2 + stopping",
+    "beta_l1": "0.2502",
+    "macro_f1": "0.805",
+    "mean_cost": "602.5"
+  }
+]

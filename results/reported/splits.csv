@@ -1,0 +1,16 @@
+split,policy,beta_l1,macro_f1,rho_error,auroc,aupr,cost
+Seen,StatOrch,0.172,0.827,0.074,0.802,0.654,849
+Seen,NearCost,0.218,0.795,0.11,0.813,0.658,896
+Seen,HighBudget,0.201,0.795,0.109,0.816,0.662,1344
+Severity,StatOrch,0.168,0.807,0.076,0.648,0.475,770
+Severity,NearCost,0.317,0.7,0.152,0.62,0.439,896
+Severity,HighBudget,0.307,0.701,0.152,0.62,0.439,1344
+Unseen mechanism,StatOrch,0.199,0.826,0.106,0.893,0.854,879
+Unseen mechanism,NearCost,0.226,0.821,0.13,0.909,0.874,896
+Unseen mechanism,HighBudget,0.206,0.822,0.131,0.909,0.874,1344
+Unseen combination,StatOrch,0.522,0.536,0.122,0.623,0.561,677
+Unseen combination,NearCost,0.512,0.458,0.136,0.477,0.405,896
+Unseen combination,HighBudget,0.501,0.458,0.136,0.469,0.402,1344
+Discovery pairs,StatOrch,0.117,0.799,0.113,0.656,0.465,817
+Discovery pairs,NearCost,0.136,0.793,0.124,0.617,0.424,896
+Discovery pairs,HighBudget,0.111,0.793,0.124,0.616,0.421,1344

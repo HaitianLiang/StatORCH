@@ -1,0 +1,13 @@
+{
+  "open_probability": {
+    "negative_mean": 0.167,
+    "positive_mean": 0.33,
+    "increase_pair_fraction": 0.891
+  },
+  "rho_hat": {
+    "negative_mean": 0.052,
+    "positive_mean": 0.092,
+    "increase_pair_fraction": 0.922
+  },
+  "claim": "directional response only; not calibrated unknown posterior mass or semantic discovery"
+}

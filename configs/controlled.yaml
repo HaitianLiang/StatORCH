@@ -1,0 +1,8 @@
+initial_samples: 48
+decision_checkpoints: [96, 144]
+max_route_budget: 192
+audit_samples: 96
+bundles: [S1, S3, S4, S13, ALL]
+quantification_fallback: EMQ
+classification_fallback: PRIOR_CORRECTED_SOURCE
+notes: "Reference protocol summary; exact controlled experiment assets/checkpoints are not invented here."

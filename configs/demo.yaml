@@ -1,0 +1,26 @@
+seed: 20260914
+num_classes: 5
+num_sensors: 4
+features_per_sensor: 4
+n_source_per_class: 350
+n_target: 600
+unknown_fraction: 0.10
+prior:
+  target: [0.36, 0.26, 0.18, 0.12, 0.08]
+shift:
+  global_scale: 0.35
+  harmed_sensor: 3
+  harm_scale: 1.50
+bundles:
+  S1: [0]
+  S3: [2]
+  S4: [3]
+  S13: [0, 2]
+  ALL: [0, 1, 2, 3]
+costs:
+  S1: 1
+  S3: 1
+  S4: 1
+  S13: 2
+  ALL: 4
+bootstrap_reps: 120

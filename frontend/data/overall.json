@@ -1,0 +1,82 @@
+[
+  {
+    "method": "ValidationMatched",
+    "beta_l1": "0.294",
+    "macro_f1": "0.72",
+    "rho_error": "0.128",
+    "auroc": "0.669",
+    "aupr": "0.543",
+    "fpr95": "0.692",
+    "cost": "672"
+  },
+  {
+    "method": "EMQ",
+    "beta_l1": "0.292",
+    "macro_f1": "0.71",
+    "rho_error": "0.121",
+    "auroc": "0.671",
+    "aupr": "0.543",
+    "fpr95": "0.688",
+    "cost": "672"
+  },
+  {
+    "method": "RLLS",
+    "beta_l1": "0.348",
+    "macro_f1": "0.712",
+    "rho_error": "0.123",
+    "auroc": "0.666",
+    "aupr": "0.54",
+    "fpr95": "0.691",
+    "cost": "672"
+  },
+  {
+    "method": "PACC",
+    "beta_l1": "0.289",
+    "macro_f1": "0.711",
+    "rho_error": "0.122",
+    "auroc": "0.669",
+    "aupr": "0.542",
+    "fpr95": "0.691",
+    "cost": "672"
+  },
+  {
+    "method": "CPMCN",
+    "beta_l1": "0.294",
+    "macro_f1": "0.711",
+    "rho_error": "0.12",
+    "auroc": "0.671",
+    "aupr": "0.543",
+    "fpr95": "0.688",
+    "cost": "672"
+  },
+  {
+    "method": "NearCost",
+    "beta_l1": "0.284",
+    "macro_f1": "0.721",
+    "rho_error": "0.13",
+    "auroc": "0.671",
+    "aupr": "0.544",
+    "fpr95": "0.689",
+    "cost": "896"
+  },
+  {
+    "method": "HighBudget",
+    "beta_l1": "0.268",
+    "macro_f1": "0.721",
+    "rho_error": "0.13",
+    "auroc": "0.67",
+    "aupr": "0.543",
+    "fpr95": "0.688",
+    "cost": "1344"
+  },
+  {
+    "method": "StatOrch",
+    "beta_l1": "0.224",
+    "macro_f1": "0.773",
+    "rho_error": "0.091",
+    "auroc": "0.716",
+    "aupr": "0.594",
+    "fpr95": "0.638",
+    "cost": "802"
+  }
+]

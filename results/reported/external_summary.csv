@@ -1,0 +1,4 @@
+dataset,policy,beta_auc,f1_auc,rank_note
+REALDISP,StatOrch,0.4337,0.2259,best evaluated performance-cost AUC
+Gas Drift,GSM-AFA,0.4784,0.2037,best evaluated performance-cost AUC
+Gas Drift,StatOrch,0.4646,0.1908,second in evaluated protocol

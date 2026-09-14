@@ -1,0 +1,23 @@
+[
+  {
+    "dataset": "REALDISP",
+    "policy": "StatOrch",
+    "beta_auc": "0.4337",
+    "f1_auc": "0.2259",
+    "rank_note": "best evaluated performance-cost AUC"
+  },
+  {
+    "dataset": "Gas Drift",
+    "policy": "GSM-AFA",
+    "beta_auc": "0.4784",
+    "f1_auc": "0.2037",
+    "rank_note": "best evaluated performance-cost AUC"
+  },
+  {
+    "dataset": "Gas Drift",
+    "policy": "StatOrch",
+    "beta_auc": "0.4646",
+    "f1_auc": "0.1908",
+    "rank_note": "second in evaluated protocol"
+  }
+]

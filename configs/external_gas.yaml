@@ -1,0 +1,9 @@
+dataset: Gas Sensor Array Drift
+source_batches: [1, 2, 3]
+calibration_batches: [4, 5, 6]
+target_batches: [7, 8, 9, 10]
+num_classes: 6
+num_sensors: 16
+budgets: [2, 4, 8, 16]
+pilot_n: 32
+prevalence_modes: [balanced, dirichlet_1, dirichlet_0_2]

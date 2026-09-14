@@ -1,0 +1,28 @@
+adaptation:
+  fallback: RAW_CLASSIC
+  health_rule:
+    feature_index: 7
+    threshold: 0.0169471
+    action: EATA
+  safe_threshold: 0.03
+quantification:
+  fallback: EMQ
+  health_rule:
+    feature_index: 16
+    threshold: 0.0826586
+    action: BBSE
+  safe_threshold: 0.05
+classification:
+  fallback: SOURCE_CALIBRATED
+  health_rule:
+    feature_index: 1
+    threshold: 1.59758
+    action: ADAPTED_ENSEMBLE
+  safe_threshold: 0.05
+open_world:
+  fallback: NONE
+  health_rule:
+    feature_index: 2
+    threshold: 8.90217e-9
+    action: MAHALANOBIS_FPR10
+  safe_threshold: 0.08

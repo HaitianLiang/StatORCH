@@ -1,0 +1,22 @@
+{
+  "adaptation": {
+    "fallback": "RAW_CLASSIC",
+    "health_rule": "feature[7] >= 0.0169471 -> EATA",
+    "safe_threshold": 0.03
+  },
+  "quantification": {
+    "fallback": "EMQ",
+    "health_rule": "feature[16] >= 0.0826586 -> BBSE",
+    "safe_threshold": 0.05
+  },
+  "classification": {
+    "fallback": "SOURCE_CALIBRATED",
+    "health_rule": "feature[1] >= 1.59758 -> ADAPTED_ENSEMBLE",
+    "safe_threshold": 0.05
+  },
+  "open_world": {
+    "fallback": "NONE",
+    "health_rule": "feature[2] >= 8.90217e-9 -> Mahalanobis(FPR=.10)",
+    "safe_threshold": 0.08
+  }
+}

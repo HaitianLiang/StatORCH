@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>StatOrch — Evidence-Grounded Statistical Agent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="topline"><span class="brandmark">S</span><span class="brand">StatOrch</span><span class="tag">research dashboard</span></div>
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Evidence-grounded orchestration under unknown shift</p>
+        <h1>Diagnose with statistics.<br/>Act with contracts.<br/>Verify after intervention.</h1>
+        <p class="lead">A compact frontend for the current controlled, module-routing and external evidence — with claim boundaries shown next to the numbers.</p>
+      </div>
+      <div class="loop-card">
+        <div class="loop-node">Evidence</div><div class="arrow">→</div><div class="loop-node">Diagnosis</div><div class="arrow">→</div><div class="loop-node accent">Action</div><div class="arrow">→</div><div class="loop-node">Re-check</div>
+        <p>Certificates preserve the numeric trace. They are audit records, not correctness guarantees.</p>
+      </div>
+    </div>
+  </header>
+  <nav class="nav" id="nav">
+    <button data-section="overview" class="active">Overview</button>
+    <button data-section="system">System</button>
+    <button data-section="mechanism">Mechanism</button>
+    <button data-section="modules">Modules</button>
+    <button data-section="external">External</button>
+    <button data-section="trace">Decision trace</button>
+    <button data-section="scope">Claim scope</button>
+  </nav>
+  <main>
+    <section id="overview" class="page active">
+      <div class="section-head"><div><span class="kicker">Controlled endpoint</span><h2>1,232 held-out units</h2></div><p>Headline values are loaded from structured reported-result files, not hard-coded into the chart logic.</p></div>
+      <div id="metric-cards" class="metric-grid"></div>
+      <div class="panel"><div class="panel-head"><h3>Method comparison</h3><span>lower β L1 / cost; higher F1 / AUROC</span></div><div id="overall-chart"></div></div>
+      <div class="note"><strong>Boundary:</strong> unseen-combination prevalence error remains worse than both fixed policies, while several other endpoint/cost metrics improve. The dashboard intentionally preserves negative results.</div>
+    </section>
+
+
+    <section id="system" class="page">
+      <div class="section-head"><div><span class="kicker">Executable interface</span><h2>Typed state + mature tool registry</h2></div><p>The controller does not route directly from raw data or free-form text. Numerical sensors populate a typed state, contracts filter tools, and every action is re-checked.</p></div>
+      <div class="state-grid">
+        <article><b>B · Population</b><span>β̂, directional open-mass proxy</span></article><article><b>U · Uncertainty</b><span>bootstrap bands, stability</span></article><article><b>D · Discrepancy</b><span>MMD, domain AUC</span></article>
+        <article><b>F · Fit</b><span>GoF / residual evidence</span></article><article><b>R · Representation</b><span>entropy, feature health</span></article><article><b>O · Open world</b><span>OOD / out-of-reference evidence</span></article>
+        <article><b>I · Information</b><span>VOI / acquisition scores</span></article><article><b>C · Cost</b><span>measurement + compute budget</span></article><article><b>H · Tool health</b><span>convergence, warnings, runtime</span></article>
+      </div>
+      <div class="panel"><div class="panel-head"><h3>Saved stage-router artifacts</h3><span>reported exactly; unavailable training architecture is not reconstructed</span></div><div id="router-artifacts"></div></div>
+      <div class="boundary-grid"><article><h3>Quantification</h3><p>PCC, EMQ/SLD-style prior adjustment, PACC and BBSE are executable core tools in this package.</p></article><article><h3>Adaptation / acquisition</h3><p>Deep TTA and predictive-model-specific FWSP remain explicit adapters. The package never silently substitutes a fake implementation.</p></article><article><h3>Open world</h3><p>Mahalanobis screening is executable. Residual discovery is gated after known-population analysis; semantic novelty is not claimed.</p></article></div>
+    </section>
+
+    <section id="mechanism" class="page">
+      <div class="section-head"><div><span class="kicker">Mechanism isolation</span><h2>Routing is the dominant base gain</h2></div><p>A0 fixed → A1 routing → A2 stopping separates information allocation from conservative cost control.</p></div>
+      <div id="ablation-cards" class="two-col"></div>
+      <div class="note">Stopping mainly removes additional cost (about 0.9–2.9% in the reported isolation) with little accuracy change; it should not be presented as a co-equal predictive gain.</div>
+    </section>
+
+    <section id="modules" class="page">
+      <div class="section-head"><div><span class="kicker">Held-out module stress</span><h2>Action specialization beyond measurement</h2></div><p>Greedy oracle-headroom capture on stage-specific seen/unseen suites.</p></div>
+      <div class="panel"><div id="module-chart"></div></div>
+      <div id="module-table" class="table-wrap"></div>
+    </section>
+
+    <section id="external" class="page">
+      <div class="section-head"><div><span class="kicker">External acquisition</span><h2>Regime-dependent, not universal dominance</h2></div><p>REALDISP and Gas Sensor Array Drift use fixed subject/time protocols with charged target pilots.</p></div>
+      <div id="external-cards" class="three-col"></div>
+      <div class="boundary-grid">
+        <article><h3>REALDISP</h3><p>StatOrch leads the evaluated performance–cost AUC and is strong at moderate displacement; under severe induced displacement, BestFixed can yield lower prevalence error.</p></article>
+        <article><h3>Gas Drift</h3><p>GSM-AFA is strongest overall; StatOrch is second. This is evidence for specialized orchestration rather than a new universally superior AFA algorithm.</p></article>
+        <article><h3>Statistical scope</h3><p>Severe REALDISP has three eligible held-out subjects and Gas Drift four target batches, so these are fixed-protocol external results, not unrestricted population guarantees.</p></article>
+      </div>
+    </section>
+
+    <section id="trace" class="page">
+      <div class="section-head"><div><span class="kicker">Auditability</span><h2>Evidence → diagnosis → action → observed diagnostic change</h2></div><p>The displayed trace is an illustrative schema example, clearly separated from manuscript endpoint evidence.</p></div>
+      <div id="trace-list" class="trace"></div>
+    </section>
+
+    <section id="scope" class="page">
+      <div class="section-head"><div><span class="kicker">Wording firewall</span><h2>What the current evidence does and does not establish</h2></div><p>Designed for README, paper, rebuttal and presentation consistency.</p></div>
+      <div class="scope-grid"><div class="panel good"><h3>Supported</h3><ul id="supported"></ul></div><div class="panel bad"><h3>Not established</h3><ul id="unsupported"></ul></div></div>
+      <div class="panel"><h3>Open-world directional response</h3><div id="openworld"></div></div>
+    </section>
+  </main>
+  <footer><span>StatOrch evidence dashboard</span><span>Snapshot: 2026-09-14 · raw external datasets/checkpoints not bundled</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>

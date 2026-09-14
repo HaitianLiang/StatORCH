@@ -1,0 +1,30 @@
+tools:
+  PCC:
+    family: quantification
+    implementation: core
+  EMQ:
+    family: quantification
+    implementation: core
+  PACC:
+    family: quantification
+    implementation: core
+  BBSE:
+    family: quantification
+    implementation: core
+  MAHALANOBIS:
+    family: ood
+    implementation: core
+  EATA:
+    family: adaptation
+    implementation: optional_adapter
+    note: requires a model-specific deep-learning adapter; not silently emulated
+  TENT:
+    family: adaptation
+    implementation: optional_adapter
+  FWSP:
+    family: acquisition
+    implementation: interface
+    note: exact predictive-model-specific solver is supplied by domain adapter
+  HDBSCAN:
+    family: discovery
+    implementation: optional_adapter
