@@ -169,14 +169,4 @@ The dashboard is static HTML/CSS/JS and does not require npm. It exposes:
 - The demo and reported-result snapshot are intentionally separated.
 - Optional deep TTA / discovery tools are represented by explicit adapter contracts unless their model dependencies are installed; no unavailable method is silently faked.
 
-## Upload to GitHub
 
-See [`docs/github_upload.md`](docs/github_upload.md) for GitHub Desktop and command-line steps.
-
-## Citation
-
-See `CITATION.cff`. Replace the anonymous placeholder metadata with the final paper metadata before public release.
-
-## License
-
-No open-source license is selected in this package. Choose and add the intended license before public release; see `LICENSE_NOT_SET.md`.
